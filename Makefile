@@ -2,6 +2,7 @@
 .PHONY: test
 
 test: test/test
+	./test/test
 
 SRC = src/CoinChanger.cpp src/VendingTransaction.cpp
 TESTS = test/main.cpp test/test_coinchanger.cpp test/test_vendingtransaction.cpp
